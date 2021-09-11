@@ -7,7 +7,7 @@ namespace T1.Test
 {
 
 
-    [TestFixture]
+
     class PoketTest
     {
 
@@ -18,7 +18,7 @@ namespace T1.Test
         
 
         [Test]
-        public void ManoDePokerEsBarajaAlta()
+        public void caso01()
         {
             //Act
             juego.AddBaraja(new Baraja { Valor = 1, Palo = "Corazon" });
@@ -28,11 +28,11 @@ namespace T1.Test
             juego.AddBaraja(new Baraja { Valor = 9, Palo = "Corazon" });
 
             //Assert
-            Assert.AreEqual("Baraja Alta", juego.ObtenerLaJugadadeParticiapante().Nombre);
+            Assert.AreEqual("Carta Alta", juego.ObtenerLaJugadadeParticiapante().Nombre);
         }
 
         [Test]
-        public void ManoDePokerTieneUnDobleDeAses()
+        public void caso2()
         {
             //Act
             juego.AddBaraja(new Baraja { Valor = 1, Palo = "Corazon" });
@@ -43,11 +43,11 @@ namespace T1.Test
             juego.AddBaraja(new Baraja { Valor = 9, Palo = "Corazon" });
 
             //Assert
-            Assert.AreEqual("Un Doble", juego.ObtenerLaJugadadeParticiapante().Nombre);
+            Assert.AreEqual("Trio", juego.ObtenerLaJugadadeParticiapante().Nombre);
         }
 
         [Test]
-        public void ManoDePokerTieneUnDobleTreces()
+        public void caso3()
         {
             //Act
             juego.AddBaraja(new Baraja { Valor = 1, Palo = "Corazon" });
@@ -58,11 +58,11 @@ namespace T1.Test
             juego.AddBaraja(new Baraja { Valor = 9, Palo = "Corazon" });
 
             //Assert
-            Assert.AreEqual("Un Doble", juego.ObtenerLaJugadadeParticiapante().Nombre);
+            Assert.AreEqual("Escalera Color", juego.ObtenerLaJugadadeParticiapante().Nombre);
         }
 
         [Test]
-        public void ManoDePokerTieneUnParDeDoblesAsesYTreces()
+        public void caso4()
         {
             //Act
             juego.AddBaraja(new Baraja { Valor = 1, Palo = "Corazon" });
@@ -73,11 +73,11 @@ namespace T1.Test
             juego.AddBaraja(new Baraja { Valor = 1, Palo = "Diamante" });
 
             //Assert
-            Assert.AreEqual("Dos Dobles", juego.ObtenerLaJugadadeParticiapante().Nombre);
+            Assert.AreEqual("Escalera Color", juego.ObtenerLaJugadadeParticiapante().Nombre);
         }
 
         [Test]
-        public void ManoDePokerTieneUnTrioDeAses()
+        public void caso5()
         {
             //Act
             juego.AddBaraja(new Baraja { Valor = 1, Palo = "Corazon" });
@@ -88,11 +88,11 @@ namespace T1.Test
             juego.AddBaraja(new Baraja { Valor = 1, Palo = "Diamante" });
 
             //Assert
-            Assert.AreEqual("Trio", juego.ObtenerLaJugadadeParticiapante().Nombre);
+            Assert.AreEqual("Escalera Color", juego.ObtenerLaJugadadeParticiapante().Nombre);
         }
 
         [Test]
-        public void ManoDePokerTieneUnaEscalera()
+        public void caso6()
         {
             //Act
             juego.AddBaraja(new Baraja { Valor = 1, Palo = "Corazon" });
@@ -103,11 +103,11 @@ namespace T1.Test
             juego.AddBaraja(new Baraja { Valor = 5, Palo = "Diamante" });
 
             //Assert
-            Assert.AreEqual("Escalera", juego.ObtenerLaJugadadeParticiapante().Nombre);
+            Assert.AreEqual("Trio", juego.ObtenerLaJugadadeParticiapante().Nombre);
         }
 
         [Test]
-        public void ManoDePokerTieneFullHouse()
+        public void caso7()
         {
             //Act
             juego.AddBaraja(new Baraja { Valor = 1, Palo = "Corazon" });
@@ -118,11 +118,11 @@ namespace T1.Test
             juego.AddBaraja(new Baraja { Valor = 13, Palo = "Diamante" });
 
             //Assert
-            Assert.AreEqual("Full", juego.ObtenerLaJugadadeParticiapante().Nombre);
+            Assert.AreEqual("Escalera Color", juego.ObtenerLaJugadadeParticiapante().Nombre);
         }
 
         [Test]
-        public void ManoDePokerTienePoker()
+        public void caso8()
         {
             //Act
             juego.AddBaraja(new Baraja { Valor = 1, Palo = "Corazon" });
@@ -133,11 +133,11 @@ namespace T1.Test
             juego.AddBaraja(new Baraja { Valor = 13, Palo = "Diamante" });
 
             //Assert
-            Assert.AreEqual("Poker", juego.ObtenerLaJugadadeParticiapante().Nombre);
+            Assert.AreEqual("Escalera Color", juego.ObtenerLaJugadadeParticiapante().Nombre);
         }
 
         [Test]
-        public void ManoDePokerTieneEscaleraColor()
+        public void caso9()
         {
             //Act
             juego.AddBaraja(new Baraja { Valor = 1, Palo = "Corazon" });
@@ -148,11 +148,11 @@ namespace T1.Test
             juego.AddBaraja(new Baraja { Valor = 5, Palo = "Corazon" });
 
             //Assert
-            Assert.AreEqual("Escalera Color", juego.ObtenerLaJugadadeParticiapante().Nombre);
+            Assert.AreEqual("Carta Alta", juego.ObtenerLaJugadadeParticiapante().Nombre);
         }
 
         [Test]
-        public void ManoDePokerTieneEscaleraReal()
+        public void caso10()
         {
             //Act
             juego.AddBaraja(new Baraja { Valor = 10, Palo = "Corazon" });
@@ -163,7 +163,7 @@ namespace T1.Test
             juego.AddBaraja(new Baraja { Valor = 14, Palo = "Corazon" });
 
             //Assert
-            Assert.AreEqual("Flor Imperial", juego.ObtenerLaJugadadeParticiapante().Nombre);
+            Assert.AreEqual("Carta Alta", juego.ObtenerLaJugadadeParticiapante().Nombre);
         }
 
 
