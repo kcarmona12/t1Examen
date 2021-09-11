@@ -1,0 +1,9 @@
+E:\kellyn\Ciclo 2021-2\Calidad\T1Poker\T1Poker\bin\Debug\netcoreapp3.1\T1Poker.deps.json
+E:\kellyn\Ciclo 2021-2\Calidad\T1Poker\T1Poker\bin\Debug\netcoreapp3.1\T1Poker.dll
+E:\kellyn\Ciclo 2021-2\Calidad\T1Poker\T1Poker\bin\Debug\netcoreapp3.1\T1Poker.pdb
+E:\kellyn\Ciclo 2021-2\Calidad\T1Poker\T1Poker\obj\Debug\netcoreapp3.1\T1Poker.csprojAssemblyReference.cache
+E:\kellyn\Ciclo 2021-2\Calidad\T1Poker\T1Poker\obj\Debug\netcoreapp3.1\T1Poker.AssemblyInfoInputs.cache
+E:\kellyn\Ciclo 2021-2\Calidad\T1Poker\T1Poker\obj\Debug\netcoreapp3.1\T1Poker.AssemblyInfo.cs
+E:\kellyn\Ciclo 2021-2\Calidad\T1Poker\T1Poker\obj\Debug\netcoreapp3.1\T1Poker.csproj.CoreCompileInputs.cache
+E:\kellyn\Ciclo 2021-2\Calidad\T1Poker\T1Poker\obj\Debug\netcoreapp3.1\T1Poker.dll
+E:\kellyn\Ciclo 2021-2\Calidad\T1Poker\T1Poker\obj\Debug\netcoreapp3.1\T1Poker.pdb
